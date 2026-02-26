@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><script src="chrome-extension://hkkpjehhcnhgefhbdcgfkeegglpjchdc/static/js/inpage.js"></script><script src="chrome-extension://dlcobpjiigpikoobohmabehhmhfoodbb/inpage.js" id="argent-x-extension" data-extension-id="dlcobpjiigpikoobohmabehhmhfoodbb"></script><input type="hidden" id="__yoroi_connector_api_injected_type" value="prod"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Andrews Family Knowledge Base</title>
 <meta name="robots" content="noindex, nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=DM+Sans:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
 <style>
 :root {
   --ink: #1a1a2e;
@@ -705,17 +703,17 @@ mark.search-hit.current {
   .gate-card { padding: 2rem 1.5rem; }
 }
 </style>
-</head>
+<script src="chrome-extension://idnnbdplmphpflfnlkomgpfbpcgelopg/inpage.js" id="xverse-wallet-provider" data-is-priority="true"></script></head>
 <body>
 
 <!-- ─── PASSWORD GATE ─── -->
-<div id="gate">
+<div id="gate" style="display: none;">
   <div class="gate-card">
     <div class="gate-icon">🔒</div>
     <h1>Andrews Family</h1>
     <p>Private knowledge base — enter the family password</p>
     <div class="gate-input-wrap">
-      <input type="password" id="gate-pass" placeholder="Password" autocomplete="off" autofocus>
+      <input type="password" id="gate-pass" placeholder="Password" autocomplete="off" autofocus="">
     </div>
     <button class="gate-btn" onclick="tryUnlock()">Unlock</button>
     <div class="gate-error" id="gate-error">Incorrect password. Try again.</div>
@@ -723,7 +721,7 @@ mark.search-hit.current {
 </div>
 
 <!-- ─── MAIN APP ─── -->
-<div id="app">
+<div id="app" style="display: block;">
   <header class="site-header">
     <div class="header-inner">
       <div class="site-title" onclick="window.scrollTo({top:0,behavior:'smooth'})">
@@ -738,13 +736,13 @@ mark.search-hit.current {
         <button onclick="navHit(-1)">▲</button>
         <button onclick="navHit(1)">▼</button>
       </div>
-      <button class="edit-btn" id="edit-btn" onclick="toggleFR()">✏️ Edit</button>
+      <button class="edit-btn active" id="edit-btn" onclick="toggleFR()">✏️ Edit</button>
       <button class="lock-btn" onclick="lockSite()">🔒 Lock</button>
     </div>
   </header>
 
   <!-- ─── FIND & REPLACE PANEL ─── -->
-  <div class="fr-panel" id="fr-panel">
+  <div class="fr-panel open" id="fr-panel">
     <div class="fr-inner">
       <div class="fr-fields">
         <div class="fr-row">
@@ -760,9 +758,9 @@ mark.search-hit.current {
           <button class="fr-btn-undo" onclick="undoLast()">↩ Undo</button>
           <button class="fr-btn-export" onclick="exportPage()">💾 Download Fixed Page</button>
         </div>
-        <div class="fr-status" id="fr-status"></div>
+        <div class="fr-status" id="fr-status"><span class="success">✓ Replaced <span class="count">3</span> instances</span></div>
       </div>
-      <div class="fr-log" id="fr-log"></div>
+      <div class="fr-log" id="fr-log"><div class="fr-log-entry"><span class="old">Trevor Mode</span> → <span class="new">Trevor Mote</span> (3)</div></div>
     </div>
   </div>
 
@@ -784,13 +782,13 @@ mark.search-hit.current {
       <div class="toc-section">
         <h3>Table of Contents</h3>
         <ul class="toc-list" id="toc-list">
-          <li><a href="#summary">Executive Summary</a></li>
+          <li><a href="#summary" class="active">Executive Summary</a></li>
           <li><a href="#quick-ref">Quick Reference</a></li>
           <li><a href="#opening">1. Opening</a></li>
           <li><a href="#eight-points">2. Eight Key Points</a></li>
-          <li><a href="#schedule">3. Schedule & Seasons</a></li>
+          <li><a href="#schedule">3. Schedule &amp; Seasons</a></li>
           <li><a href="#development">4. Development Philosophy</a></li>
-          <li><a href="#credentials">5. Credentials & Success</a></li>
+          <li><a href="#credentials">5. Credentials &amp; Success</a></li>
           <li><a href="#communication">6. Communication Protocols</a></li>
           <li><a href="#evaluation">7. Player Evaluation</a></li>
           <li><a href="#classification">8. Classifications</a></li>
@@ -798,7 +796,7 @@ mark.search-hit.current {
           <li><a href="#harper">10. Bryce Harper Story</a></li>
           <li><a href="#covid">11. COVID Innovation</a></li>
           <li><a href="#twelve-things">12. Twelve Things</a></li>
-          <li><a href="#mission">13. Mission & Closing</a></li>
+          <li><a href="#mission">13. Mission &amp; Closing</a></li>
           <li><a href="#mindset">14. Mindset Comparison</a></li>
           <li><a href="#coaching">15. Coaching Staff</a></li>
         </ul>
@@ -808,7 +806,7 @@ mark.search-hit.current {
     <main class="content" id="main-content">
       <div class="doc-header">
         <h1>Texas Twelve — New Parent Welcome Meeting</h1>
-        <div class="subtitle">Presented by Trevor Mode, Director · Transcribed from parent orientation (~95 min)</div>
+        <div class="subtitle">Presented by Trevor Mote, Director · Transcribed from parent orientation (~95 min)</div>
         <div class="meta-tags">
           <span class="meta-tag">⚾ Baseball</span>
           <span class="meta-tag">📋 Organization Overview</span>
@@ -820,7 +818,7 @@ mark.search-hit.current {
       <!-- EXECUTIVE SUMMARY -->
       <div class="section" id="summary">
         <h2>Executive Summary</h2>
-        <p>This document captures the full content of the Texas Twelve new parent welcome meeting led by Director Trevor Mode. The meeting covers the organization's philosophy, expectations for parents and players, development approach, scheduling, communication protocols, and program history. Trevor has led the Woodlands program since December 2017 and brings 20+ years of coaching experience including college and professional baseball.</p>
+        <p>This document captures the full content of the Texas Twelve new parent welcome meeting led by Director Trevor Mote. The meeting covers the organization's philosophy, expectations for parents and players, development approach, scheduling, communication protocols, and program history. Trevor has led the Woodlands program since December 2017 and brings 20+ years of coaching experience including college and professional baseball.</p>
       </div>
 
       <!-- QUICK REFERENCE -->
@@ -828,8 +826,8 @@ mark.search-hit.current {
         <h2>Quick Reference</h2>
         <div class="quick-ref">
           <table>
-            <tr><td>Organization</td><td>Texas Twelve (est. 2006, College Station)</td></tr>
-            <tr><td>Director</td><td>Trevor Mode (since Dec 2017)</td></tr>
+            <tbody><tr><td>Organization</td><td>Texas Twelve (est. 2006, College Station)</td></tr>
+            <tr><td>Director</td><td>Trevor Mote (since Dec 2017)</td></tr>
             <tr><td>Locations</td><td>College Station, Katie, Woodlands, San Antonio, South Texas, Bay Area</td></tr>
             <tr><td>Total Teams</td><td>170+ (baseball and softball combined)</td></tr>
             <tr><td>Retention Rate</td><td>92–98% annually</td></tr>
@@ -840,7 +838,7 @@ mark.search-hit.current {
             <tr><td>Contact Chain</td><td>Parent → GM → Head Coach → Director</td></tr>
             <tr><td>Pitch Tracking</td><td>Every pitch tracked in games for arm safety</td></tr>
             <tr><td>Classifications</td><td>None — Texas Twelve does not use Majors/AAA/AA labels</td></tr>
-          </table>
+          </tbody></table>
         </div>
       </div>
 
@@ -886,14 +884,14 @@ mark.search-hit.current {
         <p><strong>Controllable factors:</strong> attitude, work ethic, mindset, mentality, perspective.</p>
         <p><strong>The perspective problem:</strong> Young players' perspective is often their parents' perspective, not their own. Let them form their own view of the game.</p>
 
-        <h3>2.8 Health & Safety</h3>
+        <h3>2.8 Health &amp; Safety</h3>
         <p>Arm health is the top priority. Every pitch thrown off the mound is tracked. Surgery or a throwing issue at a young age is likely career-ending. Catchers who also pitch receive extra monitoring.</p>
         <p><strong>Leading causes of arm injuries:</strong> previous/lingering injury, overuse ages 7–14, inadequate strength, poor mechanics, insufficient rest between outings, fatigue, insufficient shutdown periods, poorly designed training programs.</p>
       </div>
 
       <!-- 3. SCHEDULE -->
       <div class="section" id="schedule">
-        <h2>3. Schedule & Season Structure</h2>
+        <h2>3. Schedule &amp; Season Structure</h2>
 
         <h3>3.1 Fall Season</h3>
         <ul>
@@ -931,11 +929,11 @@ mark.search-hit.current {
         <h3>4.1 Stages of Development</h3>
         <div class="quick-ref">
           <table>
-            <tr><td>Ages 8–10</td><td>Foundation: fundamentals, fun, learning how to practice and compete</td></tr>
+            <tbody><tr><td>Ages 8–10</td><td>Foundation: fundamentals, fun, learning how to practice and compete</td></tr>
             <tr><td>Ages 11–12</td><td>Higher-level baseball: more skill-specific, higher concepts, winning discussed more</td></tr>
             <tr><td>Ages 13–14</td><td>High school preparation: getting ready for HS baseball and the Texas Twelve HS program</td></tr>
             <tr><td>Ages 15–18</td><td>Competitive exposure: premier events, college scout visibility, advanced development</td></tr>
-          </table>
+          </tbody></table>
         </div>
 
         <h3>4.2 Positional Flexibility</h3>
@@ -953,12 +951,12 @@ mark.search-hit.current {
 
       <!-- 5. CREDENTIALS -->
       <div class="section" id="credentials">
-        <h2>5. Program Credentials & Success Stories</h2>
+        <h2>5. Program Credentials &amp; Success Stories</h2>
 
         <h3>5.1 National Standing</h3>
         <p>Texas Twelve is considered one of, if not the best, select baseball organization in the United States. They place more players into college baseball than any other program nationally. This is time-tested over the program's 20-year history.</p>
 
-        <h3>5.2 Recent Draft Picks & Notable Alumni</h3>
+        <h3>5.2 Recent Draft Picks &amp; Notable Alumni</h3>
         <table class="players-table">
           <thead>
             <tr><th>Player</th><th>Details</th><th>Key Takeaway</th></tr>
@@ -967,13 +965,13 @@ mark.search-hit.current {
             <tr><td>Braylon Payne</td><td>17th overall, Milwaukee Brewers, $3.44M</td><td>Was on the 6th team as a freshman</td></tr>
             <tr><td>Kendall George</td><td>35th pick, LA Dodgers</td><td>Played in The Woodlands</td></tr>
             <tr><td>Blake Mitchell</td><td>8th overall, KC Royals</td><td>Doing big things in pro ball</td></tr>
-            <tr><td>Houston Tomlinson</td><td>RHP, Texas A&M, throws 98</td><td>Was on the 8th team as a freshman</td></tr>
+            <tr><td>Houston Tomlinson</td><td>RHP, Texas A&amp;M, throws 98</td><td>Was on the 8th team as a freshman</td></tr>
             <tr><td>John Spikerman</td><td>3rd round, Philadelphia Phillies</td><td>Small LH hitter, just really fast</td></tr>
             <tr><td>Logan Henderson</td><td>Triple-A, near MLB call-up</td><td>Never on top team until last season</td></tr>
             <tr><td>Bro Caraway</td><td>2nd round, $1.5M signing</td><td>Never on top team entire time at T12</td></tr>
           </tbody>
         </table>
-        <p style="margin-top: 0.75rem;"><strong>2025 Draft Projections:</strong> Three Texas Twelve alumni projected first round — Jace LeViolette (Texas A&M), Shane Sadeo (LHP, Texas A&M), Max Ballou (University of Texas).</p>
+        <p style="margin-top: 0.75rem;"><strong>2025 Draft Projections:</strong> Three Texas Twelve alumni projected first round — Jace LeViolette (Texas A&amp;M), Shane Sadeo (LHP, Texas A&amp;M), Max Ballou (University of Texas).</p>
 
         <h3>5.3 The "Top Team" Myth</h3>
         <p>Multiple first-round picks and professional players were NOT on the top team during their youth years. Braylon Payne was on the 6th team. Houston Tomlinson was on the 8th team. Logan Henderson was never on top until his last season. Everyone's development path is different — comparing your son to others is counterproductive.</p>
@@ -981,7 +979,7 @@ mark.search-hit.current {
 
       <!-- 6. COMMUNICATION -->
       <div class="section" id="communication">
-        <h2>6. Communication & Parent Protocols</h2>
+        <h2>6. Communication &amp; Parent Protocols</h2>
 
         <h3>6.1 The 48-Hour Rule</h3>
         <p>After a game, parents must wait 48 hours before raising concerns. This removes emotion from the equation. By Monday or Tuesday, many issues resolve themselves.</p>
@@ -1008,7 +1006,7 @@ mark.search-hit.current {
 
       <!-- 7. EVALUATION -->
       <div class="section" id="evaluation">
-        <h2>7. Player Evaluation & GameChanger</h2>
+        <h2>7. Player Evaluation &amp; GameChanger</h2>
 
         <h3>7.1 What Evaluators Look For</h3>
         <p>More important than stats: Is he coachable? Is he hungry? Does he care? Is he a great teammate? Does he have baseball IQ — being in the right place, making good decisions, hustling, having quality at-bats when it matters? Is he a "top-step guy" (always engaged, always ready)?</p>
@@ -1050,7 +1048,7 @@ mark.search-hit.current {
 
       <!-- 11. COVID -->
       <div class="section" id="covid">
-        <h2>11. COVID Innovation & Why Internal Competition Works</h2>
+        <h2>11. COVID Innovation &amp; Why Internal Competition Works</h2>
         <p>During COVID, Texas Twelve couldn't travel. They set up at Cotton Hatch with TrackMan, live streaming, and full stats visible to college coaches watching from home. College coaches said it was the best setup anywhere — they could see the best 150 players across three age groups in one location in one day.</p>
         <p>This model was borrowed from the youth fall league approach of teams playing each other internally. Benefits: Texas Twelve controls the environment (no opponents stalling for wins), players get maximum at-bats and development, and the internal competition level is higher than most external tournaments.</p>
         <p>Trevor shared his frustration with tournament culture — opponents who stall games so kids only get 1–2 at-bats. At Texas Twelve's own events, the focus is on development and maximum reps, not on winning a bracket.</p>
@@ -1077,7 +1075,7 @@ mark.search-hit.current {
 
       <!-- 13. MISSION -->
       <div class="section" id="mission">
-        <h2>13. Mission Statement & Closing</h2>
+        <h2>13. Mission Statement &amp; Closing</h2>
         <div class="callout mission">
           "Protect the player and his or her love for the game while preparing him or her for a successful future on and off the field."
         </div>
@@ -1398,5 +1396,6 @@ tocLinks.forEach(link => {
   });
 });
 </script>
-</body>
-</html>
+
+
+</body></html>
